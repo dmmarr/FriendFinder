@@ -1,0 +1,20 @@
+{
+  "name": "friend_finder",
+  "version": "1.0.0",
+  "description": "Find your friends :)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmmarr/friendFinder.git"
+  },
+  "author": "damaris magdaleno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmmarr/friendFinder/issues"
+  },
+  "homepage": "https://github.com/dmmarr/friendFinder#readme"
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css?family=Amatic+SC|Anton|Beth+Ellen|Covered+By+Your+Grace|Indie+Flower|Lacquer|Lexend+Exa|Monoton|Permanent+Marker|Press+Start+2P|Sigmar+One&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Lacquer|Luckiest+Guy|Monoton|Schoolbell&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    #images {
+        background-attachment: fixed;
+
+        width: 1448px;
+
+        height: 750px;
+
+        background-repeat: no-repeat;
+
+        background-position: center top;
+    }
+
+    /* font-family: 'Lacquer', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Schoolbell', cursive; */
+    .centered {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+    }
+
+    h1 {
+        font-size: 80px;
+        font-family: 'Schoolbell', cursive;
+        /* font-family: 'Monoton', cursive; */
+        color: yellow;
+        /* text-emphasis:-30px white, */
+        -webkit-text-stroke: 2px white;
+    }
+
+    h3 {
+        font-family: 'Luckiest Guy', cursive;
+        text-align: center;
+        font-size: 46px;
+        color: white;
+        -webkit-text-stroke: 2px yellow;
+    }
+
+    #survey {
+        height: 100px;
+        width: 200px;
+    }
+</style>
+
+<body>
+    <div class="bg">
+
+        <img id="images"
+            src="https://payload.cargocollective.com/1/18/588575/9355005/GREENPEACE-newTHUMBNAIL-copy_670.jpg"
+            alt="food">
+        <div class="centered">
+            <h1><strong> 🤔 Friend Finder</strong></h1>
+            <hr>
+            <h3> answer a few questions<br>to find you
+                the one! :-)</h3>
+            <a href="/"><button id="survey" type="button" class="btn btn-outline-warning"> Start Survey</button></a>
+
+        </div>
+    </div>
+    <script src="./scripts/frontend.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</body>
+
+</html>

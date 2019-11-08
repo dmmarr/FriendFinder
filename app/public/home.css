@@ -1,0 +1,41 @@
+#images{
+    background-attachment: fixed;
+  
+    width: 1448px;
+
+    height: 750px ;
+
+background-repeat: no-repeat;
+
+background-position: center top; 
+}
+/* font-family: 'Lacquer', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Schoolbell', cursive; */
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+
+  h1{
+      font-size: 80px;
+      font-family: 'Schoolbell', cursive; 
+      /* font-family: 'Monoton', cursive; */
+       color: yellow;
+      /* text-emphasis:-30px white, */
+      -webkit-text-stroke: 2px white;
+  }
+  h3{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-size: 46px;
+    color: white;
+    -webkit-text-stroke: 2px yellow;
+  }
+  #survey{
+     height: 100px;    
+     width: 200px;
+  }
